@@ -1,8 +1,8 @@
 // Make connection
 // var socket = io.connect('https://api.waya-ng.com', {query: {access_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWYzMzI4MjVhYzVmMTA4MDNhNmQ5Y2YiLCJpYXQiOjE1OTMwOTQwMjZ9.8TWTTuagWPinCIWVXxfv_5YXk3eTwsCNpZp7kKqSvqU"}});
-// var socket = io.connect('http://apises.waya-ng.com', {query: {access_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWYyMjcwYjYzMzA2OTBmZGEyNjMxOWYiLCJpYXQiOjE1OTMwOTQxOTZ9.XsxAK5lmuIiccSI5KPGmaBJ1_tWZ6wf8kdR74u7D-to"}});
+var socket = io.connect('http://apises.waya-ng.com', {query: {access_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWYyMjcwYjYzMzA2OTBmZGEyNjMxOWYiLCJpYXQiOjE1OTMwOTQxOTZ9.XsxAK5lmuIiccSI5KPGmaBJ1_tWZ6wf8kdR74u7D-to"}});
 // var socket = io.connect('http://3.21.186.123', {query: {access_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWYyMjcwYjYzMzA2OTBmZGEyNjMxOWYiLCJpYXQiOjE1OTMwOTQxOTZ9.XsxAK5lmuIiccSI5KPGmaBJ1_tWZ6wf8kdR74u7D-to"}});
-var socket = io.connect('http://api.waya-ng.com', {query: {access_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWY5OTJjZGViYzVlYjEwNjBkZDY5MTgiLCJpYXQiOjE1OTM3NzgwNDZ9.2d-w_lSkfKX5sukIgQkEypzvrWg0r3mRZOIU06IgdqM"}});
+// var socket = io.connect('http://api.waya-ng.com', {query: {access_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWY5OTJjZGViYzVlYjEwNjBkZDY5MTgiLCJpYXQiOjE1OTM3NzgwNDZ9.2d-w_lSkfKX5sukIgQkEypzvrWg0r3mRZOIU06IgdqM"}});
 
 // Query DOM
 var message = document.getElementById('message'),
